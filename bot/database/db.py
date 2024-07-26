@@ -1,0 +1,1 @@
+# TODO: Make a database to control subscriptions and languages
