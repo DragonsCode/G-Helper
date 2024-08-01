@@ -2,7 +2,7 @@
 TOKEN = "6453906574:AAEYf-1j2vCzIPJnypkgJKt0vdVB5-wtosM"
 
 # Telegram account of the technical support
-TECH_SUPPORT = "https://t.me/Cayatceek2006"
+TECH_SUPPORT = "https://t.me/Cayatceek"
 
 # Settings for TTS
 FEMALE_TTS = 'english-us'
