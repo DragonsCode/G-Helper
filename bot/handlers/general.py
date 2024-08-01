@@ -32,5 +32,13 @@ async def start_handler(message: Message) -> None:
         "This is a help message.\n\n"
         "I am an AI powered gesture translator! "
         "Send me a video or a video note and I will translate gestures to text\n\n"
+        "There are 7 supported signs for test purposes:\n"
+        "✋ - hello\n"
+        "☝️- look up\n"
+        "🤘- I love you\n"
+        "✊ - friend\n"
+        "👍 - good\n"
+        "👎 - bad\n"
+        "✌️- victory\n\n"
         f"Technical support: {TECH_SUPPORT}"
     )
