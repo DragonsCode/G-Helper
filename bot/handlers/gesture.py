@@ -23,7 +23,7 @@ async def video_handler(message: Message, bot: Bot) -> None:
     file_id = message.video.file_id # get the file id of the video 
     file = await bot.get_file(file_id) # find the file using its file id
 
-    await process_message(message, bot, file)
+    await process_message(message, msg, bot, file)
 
 @gesture_router.message(F.video_note)
 async def video_note_handler(message: Message, bot: Bot) -> None:
@@ -35,4 +35,4 @@ async def video_note_handler(message: Message, bot: Bot) -> None:
     file_id = message.video_note.file_id # get the file id of the video note
     file = await bot.get_file(file_id) # find the file using its file id
 
-    await process_message(message, bot, file)
+    await process_message(message, msg, bot, file)

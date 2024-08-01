@@ -7,7 +7,7 @@ from tts.tts import TextToSpeech
 from config import MALE_TTS, FEMALE_TTS
 
 
-async def process_message(message: Message, bot: Bot, file) -> None:
+async def process_message(message: Message, msg: Message, bot: Bot, file) -> None:
     """
     This function is responsible for processing requests for gesture translates
     """
